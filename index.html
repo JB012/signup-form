@@ -11,12 +11,14 @@
         <div id="container">
             <div id="top-container">
                 <p>This is not a real online service! You know you need something like this in your life to help you 
-                    realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+                    realize your deepest dreams.
+                    <br>
+                    Sign up <i>now</i> to get started.</p>
 
                 <p>You know you want to.</p>
             </div>
             <div id="middle-container">
-                Let's do this!
+                <p>Let's do this!</p>
                 <form id="form" method="post">
                     <div>
                         <label for="first_name">FIRST NAME</label>
@@ -36,17 +38,17 @@
                     </div>
                     <div>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password">
+                        <input type="password" class="password" name="password">
                     </div>
                     <div>
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="input" name="confirm-password">
+                        <input type="input" class="password" name="confirm-password">
                     </div>
                 </form>
             </div>
             <div id="bottom-container">
-                <button type="submit" form="form">Create Account</button>
-                Already have an account? <span>Log in</span>
+                <button type="submit" id="submit" form="form">Create Account</button>
+                <p>Already have an account? <span>Log in</span></p>
             </div>
         </div>
 </body>
